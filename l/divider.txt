@@ -1,0 +1,22 @@
+Code for getting a nice colored divider in you prompt 
+
+Dividers 
+
+•• ━━━━━ ••●•• ━━━━━ •• 
+
+https://emojicombos.com/dividers
+- Bunch of them to choose 
+
+---- 
+
+Code for starship 
+
+```Code
+[•• ━━━━━ ••●•• ━━━━━ ••](fg:165)
+```
+
+Location of the startship config toml 
+
+```sh 
+hx ~/.config/starship.toml 
+```

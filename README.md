@@ -15,3 +15,9 @@
 # Dirs
 
 - Dir description 
+
+N | 🏯
+|:--:|:--:|
+[`nu_cw`](./nu_cw/) | Nushell script, CLI that takes arguments and loops through commands and writes output to text 
+
+

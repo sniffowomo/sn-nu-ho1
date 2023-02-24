@@ -81,6 +81,7 @@ echo "############### BREW INSTALLS ###############"
 brew install fzf helix 
 yes | /home/linuxbrew/.linuxbrew/opt/fzf/install
 fzf_key_bindings
+starship preset pure-preset > ~/.config/starship.toml
 echo ""
 echo ""
 echo "############ STARSHIP ########################"

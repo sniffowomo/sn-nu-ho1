@@ -4,6 +4,7 @@
 ----
 1. [Wah ?](#wah-)
 2. [Dirs](#dirs)
+3. [Special Commands](#special-commands)
 
 ----
 
@@ -20,5 +21,8 @@ N | 🏯
 |:--:|:--:|
 [`nu_cw`](./nu_cw/) | Nushell script, CLI that takes arguments and loops through commands and writes output to text 
 [`nu_out`](./nu_out/) | Redirecting output of com 
+
+# Special Commands 
+
 
 

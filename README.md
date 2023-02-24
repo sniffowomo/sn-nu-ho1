@@ -5,6 +5,7 @@
 1. [Wah ?](#wah-)
 2. [Dirs](#dirs)
 3. [Special Commands](#special-commands)
+   1. [Capturing the tabular output](#capturing-the-tabular-output)
 
 ----
 
@@ -24,5 +25,28 @@ N | 🏯
 
 # Special Commands 
 
+## Capturing the tabular output 
+
+Commmands 
+```rs 
+ls -f .. |
+table |
+ansi strip out+err> capt.txt 
+```
+- Above command output is as follows 
+
+```rs
+╭───┬──────────────┬─────────┬────────┬────────────────╮
+│ # │     name     │  type   │  size  │    modified    │
+├───┼──────────────┼─────────┼────────┼────────────────┤
+│ 0 │ ../LICENSE   │ file    │ 1.2 KB │ 3 hours ago    │
+│ 1 │ ../README.md │ file    │  576 B │ 33 minutes ago │
+│ 2 │ ../g         │ symlink │    6 B │ 3 hours ago    │
+│ 3 │ ../l         │ dir     │ 4.1 KB │ 2 hours ago    │
+│ 4 │ ../nu_cw     │ dir     │ 4.1 KB │ 36 minutes ago │
+│ 5 │ ../nu_out    │ dir     │ 4.1 KB │ 3 minutes ago  │
+╰───┴──────────────┴─────────┴────────┴────────────────╯
+```
+- Clean with no ansi colors 
 
 

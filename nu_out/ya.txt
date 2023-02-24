@@ -1,0 +1,10 @@
+╭───┬─────────────────────────────────┬─────────┬────────┬────────────────╮
+│ # │              name               │  type   │  size  │    modified    │
+├───┼─────────────────────────────────┼─────────┼────────┼────────────────┤
+│ 0 │ /workspaces/sn-nu-ho1/LICENSE   │ file    │ 1.2 KB │ 3 hours ago    │
+│ 1 │ /workspaces/sn-nu-ho1/README.md │ file    │  576 B │ 33 minutes ago │
+│ 2 │ /workspaces/sn-nu-ho1/g         │ symlink │    6 B │ 3 hours ago    │
+│ 3 │ /workspaces/sn-nu-ho1/l         │ dir     │ 4.1 KB │ 2 hours ago    │
+│ 4 │ /workspaces/sn-nu-ho1/nu_cw     │ dir     │ 4.1 KB │ 36 minutes ago │
+│ 5 │ /workspaces/sn-nu-ho1/nu_out    │ dir     │ 4.1 KB │ 3 minutes ago  │
+╰───┴─────────────────────────────────┴─────────┴────────┴────────────────╯

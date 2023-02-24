@@ -6,6 +6,7 @@
 2. [Dirs](#dirs)
 3. [Special Commands](#special-commands)
    1. [Capturing the tabular output](#capturing-the-tabular-output)
+4. [Regarding Loop with NU](#regarding-loop-with-nu)
 
 ----
 
@@ -18,10 +19,10 @@
 
 - Dir description 
 
-N | 🏯
-|:--:|:--:|
-[`nu_cw`](./nu_cw/) | Nushell script, CLI that takes arguments and loops through commands and writes output to text 
-[`nu_out`](./nu_out/) | Redirecting output of com 
+|           N           |                                               🏯                                               |
+| :-------------------: | :-------------------------------------------------------------------------------------------: |
+|  [`nu_cw`](./nu_cw/)  | Nushell script, CLI that takes arguments and loops through commands and writes output to text |
+| [`nu_out`](./nu_out/) |                                   Redirecting output of com                                   |
 
 # Special Commands 
 
@@ -49,4 +50,9 @@ ansi strip out+err> capt.txt
 ```
 - Clean with no ansi colors 
 
+
+# Regarding Loop with NU 
+1. This is not straight forward like in other shells
+2. You will have to write a rust command just for this 
+3. For quick work you cant use nushell , since its still under dev , and can be considered to be a comoiled language 
 

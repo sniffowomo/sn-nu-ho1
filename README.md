@@ -25,6 +25,8 @@
 | [`nu_out`](./nu_out/) |                                   Redirecting output of com                                   |
 [`rulc`](./rulc/) | Testing out rust command looping , abandoned 
 [`mod_1`](./mod_1/) | Testing out rust modular system
+[`EXEC`](./EXEZ/) | `cargo build --release` binaries 
+[`SeeOP`](./SeeOP/) | Reference study beginner repo  to understabt structure 
 
 # Special Commands 
 

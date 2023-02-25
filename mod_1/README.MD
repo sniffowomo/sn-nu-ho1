@@ -2,6 +2,8 @@
 <h3 align="center"><i> Rust Module System testing and notes section </i></h3>
 
 ----
+1. [Bastard](#bastard)
+2. [Structure](#structure)
 
 ----
 
@@ -12,9 +14,9 @@
 
 # Structure 
 
+This is what the repo and file look like 
 
-
-```mermaid
-graph TD 
-    A --> B
+```mermaid 
+flowchart TD 
+    A[main.rs]<--Modules<br>from lib.rs called in main.rs-->B[lib.rs]
 ```

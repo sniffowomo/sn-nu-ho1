@@ -1,0 +1,22 @@
+[package]
+name = "op-reth"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "mylib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "mybin"
+path = "src/bin/main.rs"
+
+[dependencies]
+# reth
+reth-primitives = { git = "https://github.com/paradigmxyz/reth.git" }
+reth-rlp = { git = "https://github.com/paradigmxyz/reth.git" }
+reth-rpc-types = { git = "https://github.com/paradigmxyz/reth.git" }
+
+bytes = "1.2"
+derive_more = "0.99"
+serde = { version = "1.0", features = ["derive"] }

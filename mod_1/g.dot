@@ -1,0 +1,39 @@
+digraph {
+
+    graph [
+        label="mod_1 - PantySmell",
+        labelloc=t,
+
+        pad=0.4,
+
+        // Consider rendering the graph using a different layout algorithm, such as:
+        // [dot, neato, twopi, circo, fdp, sfdp]
+        layout=neato,
+        overlap=false,
+        splines="line",
+        rankdir=LR,
+
+        fontname="Helvetica", 
+        fontsize="36",
+    ];
+
+    node [
+        fontname="monospace",
+        fontsize="10",
+        shape="record",
+        style="filled",
+    ];
+
+    edge [
+        fontname="monospace",
+        fontsize="10",
+    ];
+
+    "mod_1" [label="crate|mod_1", fillcolor="#5397c8"]; // "crate" node
+    "mod_1::jimbo" [label="pub mod|jimbo", fillcolor="#81c169"]; // "mod" node
+    "mod_1::prn_ter" [label="pub mod|prn_ter", fillcolor="#81c169"]; // "mod" node
+
+    "mod_1" -> "mod_1::jimbo" [label="owns", color="#000000", style="solid"] [constraint=true]; // "owns" edge
+    "mod_1" -> "mod_1::prn_ter" [label="owns", color="#000000", style="solid"] [constraint=true]; // "owns" edge
+
+}

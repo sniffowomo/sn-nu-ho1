@@ -1,3 +1,10 @@
+/*
+This will interact with lib.rs
+ */
+
+use mod_1::{jimbo::bas_ket, prn_ter::fost};
+
 fn main() {
-    println!("Hello, world!");
+    fost();
+    bas_ket();
 }

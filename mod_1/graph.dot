@@ -1,0 +1,7 @@
+Error: Multiple targets present in package,
+please explicitly select one via --lib or --bin flag.
+
+Targets present in package:
+- mod_1 (--lib)
+- mod_1 (--bin mod_1)
+

@@ -23,6 +23,8 @@
 | :-------------------: | :-------------------------------------------------------------------------------------------: |
 |  [`nu_cw`](./nu_cw/)  | Nushell script, CLI that takes arguments and loops through commands and writes output to text |
 | [`nu_out`](./nu_out/) |                                   Redirecting output of com                                   |
+[`rulc`](./rulc/) | Testing out rust command looping , abandoned 
+[`mod_1`](./mod_1/) | Testing out rust modular system
 
 # Special Commands 
 
